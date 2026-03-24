@@ -17,9 +17,29 @@ Dataset Information:
 The project uses multiple datasets:
 
 * **ipl_matches_data.csv** → Match-level information
-* **ball_by_ball_data.csv** → Ball-by-ball details
+* **ball_by_ball_data.zip** → Ball-by-ball details
 * **players-data-updated.csv** → Player statistics
 * **teams_data.csv** → Team information
+
+Large File Notice:
+
+The dataset **`ball_by_ball_data.csv`** is large in size and has been compressed to reduce repository size.
+
+### 🔽 How to Use
+
+1. Download the compressed file
+2. Extract it using tools like WinRAR / 7-Zip
+3. Ensure the extracted file is placed in the correct directory
+4. Open the Power BI file (`.pbix`)
+
+Note:
+
+If the Power BI file does not load data correctly:
+
+* Re-link the dataset manually inside Power BI
+* Go to **Transform Data → Data Source Settings**
+* Update the file path
+
 
 Features:
 
